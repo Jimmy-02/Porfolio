@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# build output
+.next
+dist
+build
+.turbo
+
+# logs
+*.log
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
