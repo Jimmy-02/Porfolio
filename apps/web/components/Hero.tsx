@@ -1,28 +1,30 @@
 import Image from "next/image";
 import Container from "@/components/Container";
+import Particles from "@/components/Particles";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[calc(100vh-64px)] items-center overflow-hidden">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(0,255,200,0.15),transparent_60%)]" />
+    <section className="relative flex h-[calc(100vh-64px)] items-center overflow-hidden">
+      <Particles />
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(0,255,200,0.10),transparent_55%)]" />
 
-      <Container>
-        <div className="grid items-center gap-16 md:grid-cols-2">
+      <Container className="relative z-10">
+        <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <p className="mb-6 text-sm uppercase tracking-[0.3em] text-white/50">
-              Fullsnake Developer
+              Fullstack Developer
             </p>
 
-            <h1 className="text-5xl font-semibold leading-tight text-white md:text-7xl">
+            <h1 className="text-4xl font-semibold leading-tight text-white md:text-6xl">
               I build clean, modern, and scalable web experiences.
             </h1>
 
-            <p className="mt-6 max-w-xl text-base leading-8 text-white/65 md:text-lg">
+            <p className="mt-4 max-w-xl text-base leading-7 text-white/65 md:text-lg">
               I create web applications with a strong focus on performance,
               maintainable architecture, and polished user interfaces.
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-6 flex flex-wrap gap-4">
               <a
                 href="#projects"
                 className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:opacity-90"
@@ -42,13 +44,14 @@ export default function Hero() {
           <div className="relative mx-auto w-full max-w-sm">
             <div className="absolute -inset-1 rounded-2xl bg-linear-to-r from-cyan-500 to-emerald-500 opacity-30 blur-2xl" />
 
-            <div className="relative h-96 overflow-hidden rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl">
+            <div className="relative h-80 overflow-hidden rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl md:h-96">
               <Image
                 src="/fip.png"
                 alt="avatar"
                 className="h-full w-full object-cover"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                priority
               />
 
               <div className="absolute bottom-3 right-3 flex items-center gap-2 rounded-full bg-black/70 px-3 py-1 text-xs text-white">
