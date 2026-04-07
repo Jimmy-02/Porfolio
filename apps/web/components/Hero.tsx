@@ -6,12 +6,14 @@ export default function Hero() {
   return (
     <section className="relative flex h-[calc(100vh-64px)] items-center overflow-hidden">
       <Particles />
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(0,255,200,0.10),transparent_55%)]" />
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_70%_35%,rgba(34,211,238,0.12),transparent_30%)]" />
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_25%_0%,rgba(16,185,129,0.08),transparent_28%)]" />
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-size-[80px_80px] opacity-20" />
 
       <Container className="relative z-10">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="mb-6 text-sm uppercase tracking-[0.3em] text-white/50">
+            <p className="pt-20 text-sm uppercase tracking-[0.3em] text-white/50">
               Fullstack Developer
             </p>
 

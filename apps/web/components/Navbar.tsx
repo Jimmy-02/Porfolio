@@ -9,7 +9,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-black/30 backdrop-blur-xl">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-cyan-400/10 bg-[#06111a]/55 backdrop-blur-xl">
       <Container className="flex h-16 items-center justify-between">
         <a
           href="#"
@@ -23,7 +23,7 @@ export default function Navbar() {
             <a
               key={item.label}
               href={item.href}
-              className="text-sm text-white/70 transition hover:text-white"
+              className="text-sm text-white/70 transition hover:text-cyan-300"
             >
               {item.label}
             </a>

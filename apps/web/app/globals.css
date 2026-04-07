@@ -5,8 +5,11 @@ html {
 }
 
 body {
-  background: #0a0a0a;
   color: white;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(34, 211, 238, 0.12), transparent 30%),
+    radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.10), transparent 28%),
+    linear-gradient(180deg, #06111a 0%, #030712 45%, #020617 100%);
 }
 
 @keyframes float {
