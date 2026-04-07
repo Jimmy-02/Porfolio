@@ -1,12 +1,9 @@
-import { helloUi } from "@portfolio/ui";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold">Portfolio</h1>
-        <p>{helloUi()}</p>
-      </div>
+    <main className="min-h-screen bg-[#0a0a0a] text-white">
+      <Navbar />
     </main>
   );
 }
