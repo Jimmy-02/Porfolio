@@ -16,19 +16,30 @@ export default function Hero() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
             <p className="pt-20 text-sm uppercase tracking-[0.3em] text-white/50">
-              Fullstack Developer
+              Fullsnake Developer
             </p>
 
             <h1 className="text-4xl font-semibold leading-tight text-white md:text-6xl">
-              I build clean, modern, and scalable web experiences.
+              Hi, I&apos;m <span className="text-cyan-300">Jimmy</span>
+              <br />a Fullstack Developer
             </h1>
 
             <p className="mt-4 max-w-xl text-base leading-7 text-white/65 md:text-lg">
               I create web applications with a strong focus on performance,
-              maintainable architecture, and polished user interfaces.
+              maintainable architecture, and polished user interfaces. 
             </p>
-
-            <div className="mt-6 flex flex-wrap gap-4">
+            <div className="mt-6 space-y-1 text-sm text-white/50">
+              <p>
+                <span className="text-white/70">Name:</span> Nguyen Anh Truong Tai
+              </p>
+              <p>
+                <span className="text-white/70">Email:</span> tainat1202@gmail.com
+              </p>
+              <p>
+                <span className="text-white/70">Date of Birth:</span> 2002
+              </p>
+            </div>
+            <div className="mt-6 mb-6 flex flex-wrap gap-4">
               <a
                 href="#projects"
                 className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:opacity-90"
