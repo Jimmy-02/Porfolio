@@ -17,13 +17,8 @@ import {
   SiVercel,
   SiRender,
 } from "react-icons/si";
-import {LuFolderTree} from "react-icons/lu";
+import { LuFolderTree } from "react-icons/lu";
 import Container from "@/components/Container";
-
-type TechItem = {
-  name: string;
-  icon: IconType;
-};
 
 type LucideLikeIcon = React.ComponentType<{ className?: string }>;
 
@@ -96,7 +91,7 @@ function TechGroup({
 
 export default function TechStack() {
   return (
-    <section className="relative pb-16 md:pb-24">
+    <section className="relative pt-16 pb-8 md:pt-20 md:pb-10">
       <Container>
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
           <div className="mb-8">
