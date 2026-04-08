@@ -6,16 +6,12 @@ export default function Hero() {
   return (
     <section className="relative flex h-[calc(100vh-64px)] items-center overflow-hidden">
       <Particles />
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_70%_35%,rgba(34,211,238,0.12),transparent_30%)]" />
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_25%_0%,rgba(16,185,129,0.08),transparent_28%)]" />
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-size-[80px_80px] opacity-20" />
-      <div className="absolute left-1/2 top-1/2 -z-10 h-px w-[70%] -translate-x-1/2 -translate-y-1/2 bg-linear-to-r from-transparent via-cyan-400/40 to-transparent blur-sm" />
-      <div className="absolute left-1/2 top-1/2 -z-10 h-24 w-[45%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/10 blur-3xl" />
+      
 
       <Container className="relative z-10">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="pt-20 text-sm uppercase tracking-[0.3em] text-white/50">
+            <p className="pt-24 text-sm uppercase tracking-[0.3em] text-white/50">
               Fullsnake Developer
             </p>
 

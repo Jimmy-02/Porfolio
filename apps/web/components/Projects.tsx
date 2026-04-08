@@ -56,7 +56,7 @@ export default function Projects() {
         <div className="grid gap-6 md:grid-cols-2">
           {visibleProjects.map((project) => (
             <div key={project.title} className="h-full">
-              <article className="group relative flex h-full min-h-[340px] flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition hover:border-cyan-400/30">
+              <article className="group relative flex h-full min-h-30 flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition hover:border-cyan-400/30">
                 <div className="absolute inset-0 bg-linear-to-br from-cyan-400/10 to-emerald-400/10 opacity-0 transition group-hover:opacity-100" />
 
                 <div className="relative z-10 flex h-full flex-col">
