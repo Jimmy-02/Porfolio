@@ -16,6 +16,10 @@ import {
   SiTurborepo,
   SiVercel,
   SiRender,
+  SiExpress,
+  SiNestjs,
+  SiGithubactions,
+  SiScrumalliance,
 } from "react-icons/si";
 import { LuFolderTree } from "react-icons/lu";
 import Container from "@/components/Container";
@@ -34,6 +38,8 @@ const languages: MixedTechItem[] = [
 ];
 
 const frameworks: MixedTechItem[] = [
+  { name: "Express", icon: SiExpress },
+  { name: "NestJS", icon: SiNestjs },
   { name: "React", icon: SiReact },
   { name: "Next.js", icon: SiNextdotjs },
   { name: "Flutter", icon: SiFlutter },
@@ -48,6 +54,7 @@ const databases: MixedTechItem[] = [
 const tools: MixedTechItem[] = [
   { name: "Git", icon: SiGit },
   { name: "GitHub", icon: SiGithub },
+  { name: "CI/CD", icon: SiGithubactions },
   { name: "Docker", icon: SiDocker },
   { name: "Bun", icon: SiBun },
   { name: "Turborepo", icon: SiTurborepo },

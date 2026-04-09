@@ -19,5 +19,8 @@
     "prettier": "^3.8.1",
     "turbo": "^2.9.3",
     "typescript": "^5"
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0"
   }
 }
