@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Container from "@/components/Container";
-import Github from "./Github";
-import Linkedin from "./Linkedin";
+import SocialLinks from "./SocialLinks";
 
 const navItems = [
   { label: "Home", href: "#", id: "home" },
@@ -81,7 +80,7 @@ export default function Navbar() {
                 >
                   {item.label}
                   <span
-                    className={`absolute -bottom-[22px] left-0 h-px bg-cyan-300 transition-all duration-300 ${
+                    className={`absolute -bottom-5.5 left-0 h-px bg-cyan-300 transition-all duration-300 ${
                       isActive ? "w-full opacity-100" : "w-0 opacity-0"
                     }`}
                   />
@@ -92,8 +91,7 @@ export default function Navbar() {
 
           <div className="ml-2 flex items-center gap-3">
             
-            <Github />
-            <Linkedin />
+            <SocialLinks className="ml-2" />
           </div>
         </div>
       </Container>

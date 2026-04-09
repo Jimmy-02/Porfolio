@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Container from "@/components/Container";
 import Particles from "@/components/Particles";
+import SocialLinks from "./SocialLinks";
 
 export default function Hero() {
   return (
-    <section className="relative flex h-[calc(100vh-64px)] items-center overflow-hidden">
+    <section className="relative flex min-h-screen items-center overflow-hidden">
       <Particles />
-      
 
       <Container className="relative z-10">
         <div className="grid items-center gap-12 md:grid-cols-2">
@@ -22,20 +22,22 @@ export default function Hero() {
 
             <p className="mt-4 max-w-xl text-base leading-7 text-white/65 md:text-lg">
               I create web applications with a strong focus on performance,
-              maintainable architecture, and polished user interfaces. 
+              maintainable architecture, and polished user interfaces.
             </p>
             <div className="mt-6 space-y-1 text-sm text-white/50">
               <p>
-                <span className="text-white/70">Name:</span> Nguyen Anh Truong Tai
+                <span className="text-white/70">Name:</span> Nguyen Anh Truong
+                Tai
               </p>
               <p>
-                <span className="text-white/70">Email:</span> tainat1202@gmail.com
+                <span className="text-white/70">Email:</span>{" "}
+                tainat1202@gmail.com
               </p>
               <p>
                 <span className="text-white/70">Date of Birth:</span> 2002
               </p>
             </div>
-            
+            <SocialLinks className="mt-5" showLabel />
             <div className="mt-6 mb-6 flex flex-wrap gap-4">
               <a
                 href="#projects"
