@@ -1,79 +1,49 @@
 import Image from "next/image";
 import Container from "@/components/Container";
 import Particles from "@/components/Particles";
-import SocialLinks from "./SocialLinks";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden">
+    <section
+      id="home"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden pt-20 pb-12"
+    >
       <Particles />
 
       <Container className="relative z-10">
-        <div className="grid items-center gap-12 md:grid-cols-2">
-          <div>
-            <p className="pt-24 text-sm uppercase tracking-[0.3em] text-white/50">
-              Fullsnake Developer
-            </p>
+        <div className="flex flex-col items-center justify-center text-center">
+          <div className="relative">
+            <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 blur-2xl" />
 
-            <h1 className="text-4xl font-semibold leading-tight text-white md:text-6xl">
-              Hi, I&apos;m <span className="text-cyan-300">Jimmy</span>
-              <br />a Fullstack Developer
-            </h1>
-
-            <p className="mt-4 max-w-xl text-base leading-7 text-white/65 md:text-lg">
-              I create web applications with a strong focus on performance,
-              maintainable architecture, and polished user interfaces.
-            </p>
-            <div className="mt-6 space-y-1 text-sm text-white/50">
-              <p>
-                <span className="text-white/70">Name:</span> Nguyen Anh Truong
-                Tai
-              </p>
-              <p>
-                <span className="text-white/70">Email:</span>{" "}
-                tainat1202@gmail.com
-              </p>
-              <p>
-                <span className="text-white/70">Date of Birth:</span> 2002
-              </p>
-            </div>
-            <SocialLinks className="mt-5" showLabel />
-            <div className="mt-6 mb-6 flex flex-wrap gap-4">
-              <a
-                href="#projects"
-                className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:opacity-90"
-              >
-                View Projects
-              </a>
-
-              <a
-                href="#contact"
-                className="rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-white transition hover:bg-white/10"
-              >
-                Contact Me
-              </a>
-            </div>
-          </div>
-
-          <div className="relative mx-auto w-full max-w-sm">
-            <div className="absolute -inset-1 rounded-2xl bg-linear-to-r from-cyan-500 to-emerald-500 opacity-30 blur-2xl" />
-
-            <div className="relative h-80 overflow-hidden rounded-2xl border border-white/10 bg-black/40 backdrop-blur-xl md:h-96">
+            <div className="relative h-40 w-40 overflow-hidden rounded-full border border-white/10 bg-black/40 shadow-[0_0_40px_rgba(34,211,238,0.12)] backdrop-blur-xl sm:h-48 sm:w-48 md:h-56 md:w-56">
               <Image
                 src="/fip.png"
-                alt="avatar"
-                className="h-full w-full object-cover"
+                alt="Nguyen Anh Truong Tai avatar"
                 fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover"
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 192px, 224px"
                 priority
               />
-
-              <div className="absolute bottom-3 right-3 flex items-center gap-2 rounded-full bg-black/70 px-3 py-1 text-xs text-white">
-                <span className="h-2 w-2 rounded-full bg-green-400" />
-                Available
-              </div>
             </div>
           </div>
+
+          <div className="mt-8 space-y-3">
+            <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl">
+              Nguyen Anh Truong Tai
+            </h1>
+
+            <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/90 sm:text-base">
+              Software Engineer
+            </p>
+          </div>
+
+          <p className="mt-5 max-w-2xl text-sm leading-7 text-white/60 sm:text-base md:text-lg">
+            I build modern web applications with a focus on clean architecture,
+            performance, and polished user experiences.
+          </p>
+
+          <SocialLinks className="mt-6 justify-center" />
         </div>
       </Container>
     </section>
