@@ -102,7 +102,7 @@ export default function TechStack() {
       <Container>
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
           <div className="mb-8">
-            <p className="text-sm uppercase tracking-[0.3em] text-white/45">
+            <p className="text-sm uppercase tracking-[0.3em] text-cyan-400">
               Tech Stack
             </p>
             <h2 className="mt-3 text-2xl font-semibold text-white md:text-3xl">

@@ -45,7 +45,7 @@ export default function Projects() {
     <section id="projects" className="relative pt-8 pb-20 md:pt-10 md:pb-24">
       <Container>
         <div className="mb-12">
-          <p className="text-sm uppercase tracking-[0.3em] text-white/45">
+          <p className="text-sm uppercase tracking-[0.3em] text-cyan-400">
             Projects
           </p>
           <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl">
