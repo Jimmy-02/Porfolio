@@ -35,6 +35,7 @@ export default function Hero() {
                 <span className="text-white/70">Date of Birth:</span> 2002
               </p>
             </div>
+            
             <div className="mt-6 mb-6 flex flex-wrap gap-4">
               <a
                 href="#projects"
