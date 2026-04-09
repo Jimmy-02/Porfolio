@@ -2,8 +2,9 @@ import Container from "@/components/Container";
 
 const navItems = [
   { label: "Home", href: "#" },
+  { label: "Tech Stack", href: "#techstack" },
   { label: "Projects", href: "#projects" },
-  { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 
