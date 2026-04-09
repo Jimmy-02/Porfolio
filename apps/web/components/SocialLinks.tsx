@@ -12,8 +12,7 @@ export default function SocialLinks({
 }: SocialLinksProps) {
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      {showLabel && <span className="text-sm text-white/70">Find me on</span>}
-
+      {showLabel && <span className="text-sm text-white/45">Find me on</span>}
       <Github />
       <Linkedin />
     </div>

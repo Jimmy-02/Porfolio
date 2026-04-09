@@ -88,11 +88,9 @@ export default function Navbar() {
               );
             })}
           </nav>
-
-          <div className="ml-2 flex items-center gap-3">
-            
-            <SocialLinks className="ml-2" />
-          </div>
+        </div>
+        <div className="ml-2 flex items-center gap-3">
+          <SocialLinks className="ml-2" />
         </div>
       </Container>
     </header>
