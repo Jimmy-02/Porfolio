@@ -1,7 +1,4 @@
 {
   "extends": "./packages/configs/tsconfig.base.json",
-  "compilerOptions": {
-    "ignoreDeprecations": "6.0"
-  },
   "exclude": ["node_modules", ".turbo", ".next", "dist", "build"]
 }
