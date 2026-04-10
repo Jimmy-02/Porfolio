@@ -18,5 +18,10 @@
     "typecheck": {
       "dependsOn": ["^typecheck"]
     }
-  }
+  },
+  "globalEnv": [
+    "RESEND_API_KEY",
+    "CONTACT_RECEIVER_EMAIL",
+    "CONTACT_FROM_EMAIL"
+  ]
 }
