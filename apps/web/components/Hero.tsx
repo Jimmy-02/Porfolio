@@ -3,7 +3,7 @@ import Container from "@/components/Container";
 import Particles from "@/components/Particles";
 import SocialLinks from "@/components/SocialLinks";
 import { Download } from "lucide-react";
-
+import { track } from "@vercel/analytics";
 export default function Hero() {
   return (
     <section
@@ -51,6 +51,7 @@ export default function Hero() {
               target="_blank"
               download
               className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-medium text-white/80 backdrop-blur transition hover:border-cyan-400/30 hover:text-cyan-300 hover:bg-white/10"
+              onClick={() => track("click_download_cv")}
             >
               <Download className="size-4" />
               Download CV
