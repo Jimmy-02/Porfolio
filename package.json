@@ -21,6 +21,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.8.0",
     "resend": "^6.10.0",

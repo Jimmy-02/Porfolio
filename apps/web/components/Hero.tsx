@@ -3,7 +3,6 @@ import Container from "@/components/Container";
 import Particles from "@/components/Particles";
 import SocialLinks from "@/components/SocialLinks";
 import { Download } from "lucide-react";
-
 export default function Hero() {
   return (
     <section
