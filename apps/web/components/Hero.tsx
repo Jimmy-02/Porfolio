@@ -2,6 +2,7 @@ import Image from "next/image";
 import Container from "@/components/Container";
 import Particles from "@/components/Particles";
 import SocialLinks from "@/components/SocialLinks";
+import { Download } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
       <Container className="relative z-10">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="relative">
-            <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 blur-2xl" />
+            <div className="absolute -inset-3 rounded-full bg-linear-to-r from-cyan-500/30 to-emerald-500/30 blur-2xl" />
 
             <div className="relative h-40 w-40 overflow-hidden rounded-full border border-white/10 bg-black/40 shadow-[0_0_40px_rgba(34,211,238,0.12)] backdrop-blur-xl sm:h-48 sm:w-48 md:h-56 md:w-56">
               <Image
@@ -44,6 +45,17 @@ export default function Hero() {
           </p>
 
           <SocialLinks className="mt-6 justify-center" />
+          <div className="mt-4 flex justify-center">
+            <a
+              href="https://www.youtube.com/watch?v=fdppIIWets8"
+              target="_blank"
+              download
+              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-medium text-white/80 backdrop-blur transition hover:border-cyan-400/30 hover:text-cyan-300 hover:bg-white/10"
+            >
+              <Download className="size-4" />
+              Download CV
+            </a>
+          </div>
         </div>
       </Container>
     </section>
