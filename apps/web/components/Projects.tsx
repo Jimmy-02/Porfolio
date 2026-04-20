@@ -8,7 +8,7 @@ const projects = [
     title: "Moji",
     description:
       "Realtime chat application with authentication, conversations, and instant messaging using Socket.io.",
-    stack: ["React", "Express", "Socket.io", "MongoDB", "Tailwind"],
+    stack: ["JavaScript", "TypeScript", "React", "Express", "Socket.io", "MongoDB", "Tailwind", "Vite", "JWT", "Cloudinary"],
     github: "https://github.com/Jimmy-02/Moji",
     live: "https://moji-realtime-chat-app-frontend-nine.vercel.app/",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "CryThenDo",
     description:
       "Task management app focused on productivity with a clean and simple UI.",
-    stack: ["React", "Express", "MongoDB", "Tailwind"],
+    stack: ["JavaScript", "React", "Express", "MongoDB", "Tailwind"],
     github: "https://github.com/Jimmy-02/CryThenDo",
     live: "https://crythendo.onrender.com",
   },
@@ -24,14 +24,14 @@ const projects = [
     title: "Quiz App",
     description:
       "A quiz application that allows users to practice and test their knowledge with multiple questions.",
-    stack: ["JavaScript", "HTML", "CSS"],
+    stack: ["Dart", "Flutter", "Firebase"],
     github: "https://github.com/Jimmy-02/QuizApp",
   },
   {
     title: "Bubble Tea Management",
     description:
       "A management system for handling orders, products, and operations of a bubble tea shop.",
-    stack: ["Java", "Spring Boot", "MySQL"],
+    stack: ["C#", "Windows Forms", "SQL Server", "Entity Framework", "Crystal Reports"],
     github: "https://github.com/Jimmy-02/Bubble-Tea-Management",
   },
 ];
