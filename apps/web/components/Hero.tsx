@@ -9,8 +9,6 @@ export default function Hero() {
       id="home"
       className="relative flex min-h-screen items-center justify-center overflow-hidden pt-20 pb-12"
     >
-      <Particles />
-
       <Container className="relative z-10">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="relative">
