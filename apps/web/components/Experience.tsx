@@ -97,7 +97,7 @@ export default function Experience() {
                         className={`rounded-xl border p-4 ${
                           isEducation
                             ? "border-violet-500/20 bg-violet-500/5"
-                            : "border-emerald-500/20 bg-emerald-500/5 shadow-[0_0_20px_rgba(16,185,129,0.08)]"
+                            : "border-emerald-500/20 bg-emerald-500/5"
                         }`}
                       >
                         <div className="mb-2 flex items-center gap-2">
@@ -141,7 +141,7 @@ export default function Experience() {
                     <div className="relative mt-5 ml-4">
                       <div className="absolute -left-4 top-0 h-full w-px bg-yellow-400/20" />
 
-                      <div className="rounded-xl border border-yellow-500/20 bg-yellow-500/5 p-4 shadow-[0_0_20px_rgba(234,179,8,0.08)]">
+                      <div className="rounded-xl border border-yellow-500/20 bg-yellow-500/5 p-4">
                         <div className="mb-2 flex items-center gap-2">
                           <span className="rounded-full bg-yellow-500/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.15em] text-yellow-400">
                             Achievement
