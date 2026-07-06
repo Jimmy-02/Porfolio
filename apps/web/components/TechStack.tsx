@@ -19,7 +19,6 @@ import {
   SiExpress,
   SiNestjs,
   SiGithubactions,
-  SiScrumalliance,
 } from "react-icons/si";
 import { LuFolderTree } from "react-icons/lu";
 import Container from "@/components/Container";
@@ -111,8 +110,8 @@ export default function TechStack() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2">
-            <TechGroup title="Languages" items={languages} />
-            <TechGroup title="Frameworks" items={frameworks} />
+            <TechGroup title="Programming Languages" items={languages} />
+            <TechGroup title="Frameworks and Libraries" items={frameworks} />
             <TechGroup title="Databases" items={databases} />
             <TechGroup title="Tools & Others" items={tools} />
           </div>
