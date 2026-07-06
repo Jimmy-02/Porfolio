@@ -19,7 +19,6 @@ import {
   SiExpress,
   SiNestjs,
   SiGithubactions,
-  SiScrumalliance,
 } from "react-icons/si";
 import { LuFolderTree } from "react-icons/lu";
 import Container from "@/components/Container";
